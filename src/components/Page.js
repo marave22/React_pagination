@@ -4,6 +4,7 @@ import './Page.css';
 class Page extends React.Component {
 
     constructor(props) {
+
         super(props);
         this.state = {
             images: ['angular2', 'babel', 'CSS', 'gulp', 'HTML', 'nodejs', 'react', 'vue', 'yarn', 'HTML', 'nodejs', 'react', 'vue', 'yarn'],
@@ -16,6 +17,8 @@ class Page extends React.Component {
         this.setState({
             currentPage: Number(e.target.id)
         })
+        let h = window.location.hash;
+        console.log(h)
     };
 
     render() {
