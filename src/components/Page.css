@@ -1,0 +1,28 @@
+li {
+    list-style: none;
+}
+
+#img {
+    margin-right: 2%;
+    margin-top: 5%;
+}
+
+#page-numbers {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 30%;
+}
+
+#page-numbers > li {
+    margin-right: 0.3em;
+    color: #71b9ff;
+    user-select: none;
+    cursor: pointer;
+}
+
+#images {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
